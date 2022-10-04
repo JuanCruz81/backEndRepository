@@ -16,7 +16,7 @@ namespace WebApplication2.Controllers
         {
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
             builder.DataSource = "(local)";
-            String connectionString = "Server=DESKTOP-EMRDVK8; Database=StockDatabase; Encrypt=False; Trusted_Connection=True;";
+            String connectionString = "Server=<server-name>; Database=StockDatabase; Encrypt=False; Trusted_Connection=True;";
             string[] records = new string[4];
             List<string> listIds = new List<string>();
             List<string> listPrices = new List<string>();
